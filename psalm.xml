@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<psalm errorLevel="1">
+    <projectFiles>
+        <directory name="tests"/>
+    </projectFiles>
+<plugins><pluginClass xmlns="https://getpsalm.org/schema/config" class="Psalm\PhpUnitPlugin\Plugin"/><pluginClass xmlns="https://getpsalm.org/schema/config" class="Psalm\MockeryPlugin\Plugin"/></plugins></psalm>
